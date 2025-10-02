@@ -449,6 +449,5 @@ class DatabaseService {
 }
 
 // Create singleton instance
-const DatabaseService = new DatabaseService();
-
-export default DatabaseService;
+const databaseServiceInstance = new DatabaseService();
+export default databaseServiceInstance;
