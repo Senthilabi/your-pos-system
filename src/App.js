@@ -9,7 +9,7 @@ import ErrorBoundary from './shared/components/ErrorBoundary';
 import AuthModule from './modules/auth';
 import POSModule from './modules/pos';
 import InventoryModule from './modules/inventory';
-import CustomersModule from './modules/customers';
+//import CustomersModule from './modules/customers';
 import ReportsModule from './modules/reports';
 import SettingsModule from './modules/settings';
 
@@ -97,8 +97,8 @@ const AppContent = () => {
         return <POSModule />;
       case 'inventory':
         return <InventoryModule />;
-      case 'customers':
-        return <CustomersModule />;
+      //case 'customers':
+        //return <CustomersModule />;
       case 'reports':
         return <ReportsModule />;
       case 'settings':
